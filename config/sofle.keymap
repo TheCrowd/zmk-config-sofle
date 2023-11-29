@@ -49,6 +49,11 @@
             bindings = <&kp CAPSLOCK>;
             key-positions = <39 40>;
         };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <31 32>;
+        };
     };
 
     behaviors {
