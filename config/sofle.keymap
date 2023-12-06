@@ -97,7 +97,9 @@
                                                         &kp CAPS                &kp LEFT_ALT  &kp LCMD  &kp SPACE  &mo LOWER     &mo RAISE  &kp RET  &kp RCMD  &kp RBKT   &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_DN PG_UP>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
         lower_layer {
